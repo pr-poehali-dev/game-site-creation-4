@@ -1,4 +1,3 @@
-
 import GameNavbar from "@/components/GameNavbar";
 import HeroSection from "@/components/HeroSection";
 import FeaturedGames from "@/components/FeaturedGames";
@@ -11,7 +10,7 @@ const Index = () => {
       <HeroSection />
       <FeaturedGames />
       <GameCategories />
-    </div>Отлично!
+    </div>
   );
 };
 

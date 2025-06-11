@@ -1,15 +1,19 @@
-import GameNavbar from "@/components/GameNavbar";
-import HeroSection from "@/components/HeroSection";
-import FeaturedGames from "@/components/FeaturedGames";
-import GameCategories from "@/components/GameCategories";
+import RoyalNavbar from "@/components/RoyalNavbar";
+import RoyalHero from "@/components/RoyalHero";
+import GameFeatures from "@/components/GameFeatures";
+import GameGallery from "@/components/GameGallery";
+import DownloadSection from "@/components/DownloadSection";
+import RoyalFooter from "@/components/RoyalFooter";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-900">
-      <GameNavbar />
-      <HeroSection />
-      <FeaturedGames />
-      <GameCategories />
+      <RoyalNavbar />
+      <RoyalHero />
+      <GameFeatures />
+      <GameGallery />
+      <DownloadSection />
+      <RoyalFooter />
     </div>
   );
 };
